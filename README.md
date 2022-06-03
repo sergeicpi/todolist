@@ -5,6 +5,4 @@
 - Add/Remove tasks in list
 - Change color themes of page
 
-
-![todolist.png](../_resources/todolist.png)
-
+![todolist.png](todolist.png)
