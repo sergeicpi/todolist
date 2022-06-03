@@ -102,7 +102,6 @@ const tasks = [
 
   let lastSelectedTheme = localStorage.getItem('app_theme') || 'default'
 
-  // Elements UI
   const listContainer = document.querySelector('.task-list-section .list-group')
 
   const form = document.forms['addTask']
@@ -110,7 +109,6 @@ const tasks = [
   const inputBody = form.elements['body']
   const themeSelect = document.getElementById('themeSelect')
 
-  // Events
   setTheme(lastSelectedTheme)
   renderAllTasks(objOfTasks)
   form.addEventListener('submit', onFormSubmitHandler)
